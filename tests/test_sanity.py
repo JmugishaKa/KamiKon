@@ -8,3 +8,4 @@ def test_sanity():
 
 def test_settings_loaded():
     assert settings.SECRET_KEY
+import os
