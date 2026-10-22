@@ -29,5 +29,6 @@ exclude = [
 ]
 
 [tool.pytest.ini_options]
+DJANGO_SETTINGS_MODULE = "kamikon.settings"
 pythonpath = ["."]
-testpaths = ["tests"]
+python_files = ["tests.py", "test_*.py"]
