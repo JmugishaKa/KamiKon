@@ -11,7 +11,7 @@ jobs:
   lint-and-test:
     runs-on: ubuntu-latest
     env:
-       SECRET_KEY: ci-only-not-a-real-secret
+       SECRET_KEY: !^(f-7z9g(im_$)5uvgp76n%1x&yia1a8rsc9)-c6r!ucuwzia
        DEBUG: "True"
     steps:
       - uses: actions/checkout@v4
