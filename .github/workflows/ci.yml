@@ -11,7 +11,7 @@ jobs:
   lint-and-test:
     runs-on: ubuntu-latest
     env:
-       SECRET_KEY: !^(f-7z9g(im_$)5uvgp76n%1x&yia1a8rsc9)-c6r!ucuwzia
+       SECRET_KEY: l-ckzDB-JVHGAapJ4c_D-EdxJScyGWUeJs-5MK0wxGHsYvtfL6lZAmwrt7q22p3_axo
        DEBUG: "True"
     steps:
       - uses: actions/checkout@v4
